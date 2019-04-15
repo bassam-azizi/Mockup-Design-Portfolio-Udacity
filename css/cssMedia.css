@@ -1,0 +1,35 @@
+@media screen and (max-width:800px){
+            figure{
+                width: calc(50% - 20px); margin-top:1em;}
+            figure:hover{
+                width: calc(50% - 20px);}}
+        @media screen and (max-width:650px){
+            .right_side{width:60%;}
+            .left_side{width:40%;}
+            h1{font-size:2em;}
+            h4{font-size:1.1em;}
+            footer{display:inline-block;
+                   text-align: center;
+                   height: auto;}
+            p{margin-top:1em;}
+        }
+        @media screen and (max-width:500px){
+            .right_side{width:60%;}
+            .left_side{width:40%;}
+            h1{font-size:1.7em;}
+            h4{font-size:1em;}
+        }
+        @media screen and (max-width:450px){
+            figure{ width: calc(100% - 20px);}
+            figure:hover{width: calc(100% - 20px);
+                        margin-left:10px;
+                        margin-right:10px;}
+            .featuredWork{font-size:1.6em;}
+            h3{font-size:1em;}
+            .right_side{padding-right: 1em;}
+            h1{font-size:1.6em;letter-spacing:2px;}
+        }
+        @media screen and (max-width:350px){
+            header{display:inline-block;}
+            .left_side, .right_side{
+            margin: 0 auto;}}
